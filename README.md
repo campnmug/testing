@@ -3,6 +3,7 @@ This is a repository of the SAS code, data and results for my chartbook on COVID
 
 The data is created by running read_daily_create_sasdata.sas
 This program uses 4 datasets
+
 1. daily.csv
       source: https://covidtracking.com/api/v1/states/daily.csv Historic state data
 2. dailyus.csv
@@ -13,6 +14,7 @@ This program uses 4 datasets
       b. BEA Region definitions from https://en.wikipedia.org/wiki/List_of_regions_of_the_United_States
 4. population
       cource: heavily edited from https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States_by_population
+      
 The resulting data is temp.sas7bdat
 
 
